@@ -8,8 +8,8 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <Route component={Home} path="/" exact />
-        <Route component={Photo} path="/photo" />
+        {/* <Route component={Home} path="/" exact /> */}
+        <Route component={Photo} path="/" exact />
       </div>
     </BrowserRouter>
   );

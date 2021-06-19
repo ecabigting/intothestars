@@ -5,7 +5,7 @@ export default function NavBar(){
     return(
         <div className="navbar" >
             <ul>
-                <Link to="/" className="link">Take me home</Link>
+                <Link to="/" className="link">Today's photo from NASA APOD</Link>
             </ul>
         </div>
     );
